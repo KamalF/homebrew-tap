@@ -1,25 +1,25 @@
 class Mdame < Formula
   desc "A local markdown viewer and editor, served to your browser"
   homepage "https://github.com/KamalF/mdame"
-  version "0.1.1"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/KamalF/mdame/releases/download/v0.1.1/mdame-aarch64-apple-darwin.tar.xz"
-      sha256 "0d9e6c21d5b471f88a39631125c0e2d07e031467bfe5d666918d46afa47893fc"
+      url "https://github.com/KamalF/mdame/releases/download/v0.2.0/mdame-aarch64-apple-darwin.tar.xz"
+      sha256 "45b6c53651773d1f093be35d960f54d8b9aca12a3ebd260457a2f8429974dfab"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KamalF/mdame/releases/download/v0.1.1/mdame-x86_64-apple-darwin.tar.xz"
-      sha256 "588afb239e2af507c05c1186ebc170444cafc77b7779fc7dd43f31e925d55edd"
+      url "https://github.com/KamalF/mdame/releases/download/v0.2.0/mdame-x86_64-apple-darwin.tar.xz"
+      sha256 "9997b4ad133ede86b1e8ad6fb9207e6c021a7ec8f28cb9fe03b105121b055ddf"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/KamalF/mdame/releases/download/v0.1.1/mdame-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "18af2b5d886f2a7aace152c3159b99f92e85dc9bd5121366027093e1f8e6df02"
+      url "https://github.com/KamalF/mdame/releases/download/v0.2.0/mdame-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "5dc7a951dda6c80542592a2c1123089f72444262793025112d40dd64dbdb39d0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KamalF/mdame/releases/download/v0.1.1/mdame-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "5cc57fcef2ea7d4738cbd5c1af0fb2c87491b7fee0001238734572b928f363fe"
+      url "https://github.com/KamalF/mdame/releases/download/v0.2.0/mdame-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "51a744ac08516ad62821c2f957c3207bf6db6411bb321af16c0eb19c31db51b9"
     end
   end
   license "MIT"
